@@ -17,6 +17,9 @@ remove-container:
 run-container:
 	$(CMD_RUN_CONTAINER)
 
+start-api:
+	$(CMD_START_API)
+
 # Utilities
 bash:
 	docker exec -it $(CONTAINER_TAG) bash
