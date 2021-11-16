@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Falcon",
+            "type": "python",
+            "request": "launch",
+            "program": "/usr/local/bin/gunicorn",
+            "args": [
+                "app.server:app",
+                "-b",
+                "0.0.0.0: 80",
+                "--reload"
+            ],
+        }
+    ]
+}
