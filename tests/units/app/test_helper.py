@@ -6,7 +6,7 @@ class TestHelper(unittest.TestCase):
         pass
 
     def test_helper_func1(self):
-        str_compare = "helper_fun1"
+        str_compare = "helper_func1"
         result = helper_func1()
 
         self.assertEqual(str_compare, result)
